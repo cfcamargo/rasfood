@@ -28,6 +28,14 @@ public class Cardapio {
         return id;
     }
 
+    public Categoria getCategoria() {
+        return categoria;
+    }
+
+    public void setCategoria(Categoria categoria) {
+        this.categoria = categoria;
+    }
+
     public void setId(Integer id) {
         this.id = id;
     }
@@ -81,6 +89,7 @@ public class Cardapio {
                 ", disponibilidade=" + disponibilidade +
                 ", valor=" + valor +
                 ", dataRegistro=" + dataRegistro +
+                ", Categoria=" + categoria +
                 '}';
     }
 }
